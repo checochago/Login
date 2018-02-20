@@ -1,0 +1,29 @@
+section{
+  display: flex;
+  justify-content: center;
+}
+form{
+  width: 380px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+.two-columns{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-columns > *{
+  width: 47%
+  /*flex-basis: 30%;*/
+}
+
+input{
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 15px;
+  margin-top: 5px;
+}
+button {
+  width: 100%;
+}

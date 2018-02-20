@@ -7,24 +7,62 @@
   </head>
   <body>
     <section>
-      <form action="#", method="post">
-        <div class="two-columns">
-          <div class="input-group">
-            <label for="lastname">Name</label>
-            <input type="text" name="name" id="name" placeholder="Your name">
-          </div>
-          <div class="input-group">
-            <label for="lastname">Name</label>
-            <input type="text" name="lastname" id="lastname" placeholder="Your lastname">
-          </div>
-          </div>
+      <form class="" action="index.html" method="post">
+        <input type="search" name="search">
+        <button type="button" name="button">Search</button>
+      </form>
+    </section>
+    <section>
+      <form action="#", method="post" enctype="multipart/form-data">
         <label for="username">Username</label>
         <input type="text" name="username" id="username" placeholder="Pick a username">
         <label for="email">Email</label>
         <input type="text" name="email" id="email" placeholder="you@exapmlecom">
         <label for="pass">Password</label>
         <input type="password" name="pass" id="pass" placeholder="Create a Password">
-        <button type="sumbit" name="button">Login</button>
+
+        <label for="avatar">Upload your Picture</label>
+        <input type="file" name="avatar" id="avatar" accept="image/jpeg">
+  <fieldset>
+      <legend>Select your Sex</legend>
+          <input type="radio" name="sex" id="fem" value="f">
+          <label for="fem">Female</label>
+          <input type="radio" name="sex" id="male" value="m">
+          <label for="male">Male</label>
+  </fieldset>
+
+  <fieldset>
+      <legend>Select all your preferences</legend>
+          <input type="checkbox" name="sex" id="p1" value="p1">
+          <label for="p1">Preference 1</label>
+          <input type="checkbox" name="sex" id="p2" value="p2">
+          <label for="p2">Preference 2</label>
+          <input type="checkbox" name="sex" id="p3" value="p3">
+          <label for="p3">Preference 3</label>
+  </fieldset>
+
+          <label for="birthday">Select your Birthday</label>
+          <input type="date" name="birthday" id="birthday">
+
+          <label for="awake">Awake</label>
+          <input type="time" name="awake" id="awake">
+
+          <label for="">Grade the Service</label>
+          <input type="range" name="service" id="service" min="5" max="20" step="2">
+
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" min="18">
+
+          <label for="fb">Facebook URL</label>
+          <input type= "url" name="fb" id="fb">
+
+          <label for="tel">Phone</label>
+          <input type="tel" name="tel" id="tel">
+
+          <label for="color">Your Favorite Color</label>
+          <input type="color" name="color" id="color">
+
+        <button type="sumbit" name="button">Sign Up</button>
       </form>
     </section>
   </body>
